@@ -1,19 +1,12 @@
-# Product-CRUD-React-frontend-project-
-A simple ReactJS frontend application for managing products with full CRUD functionality: Add, List, Edit, and Delete products. The app is built using React JSX and plain CSS, making it fully responsive for both desktop and mobile devices.
-Features:
-Add new products with the following fields:
-Product Name (string)
-Price (number)
-Old Price (number)
-Category (select dropdown: Vegetables, Fruits & Nuts, Dairy & Creams, Packaged Food, Staples)
-Is Active (checkbox)
-Description (textarea)
-List all products in a clean, responsive table layout.
-Edit existing product details.
-Delete products with a single click.
-Mobile-friendly design with intuitive UI for easy navigation.
+# React + Vite
 
-Tech Stack:
-ReactJS (Frontend)
-CSS for styling (no frameworks)
-No backend included (can be integrated with any API)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
